@@ -28,12 +28,12 @@
     "lint-check": "eslint --print-config . | eslint-config-prettier-check"
   },
   "eslintConfig": {
-    "extends": [
-      "prettier",
-      "react-app",
-      "prettier/react"
-    ]
+    "extends": "react-app"
   },
+  "eslintIgnore": [
+    "node_modules",
+    "build/*"
+  ],
   "devDependencies": {
     "@types/classnames": "^2.2.10",
     "@types/react": "~16.8.8",
