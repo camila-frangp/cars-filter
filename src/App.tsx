@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+import * as React from 'react';
 import ListProducts from './modules/ListProducts/ListProducts';
 import './App.scss';
 
