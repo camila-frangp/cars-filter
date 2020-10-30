@@ -1,0 +1,43 @@
+/** @format */
+
+@import './../../assets/scss/variables';
+@import './../../assets/scss/mixin';
+
+.cntCard {
+  @include box(kaufparts-white, none, 0.75rem);
+  height: 450px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px 0 rgba(map-get($colors, kaufparts-light-blue), 0.75);
+  &_cntImg {
+    height: 200px;
+    &.cntCard_cntImg__empty {
+      @include box(kaufparts-light-blue, none, 0.75rem);
+      content: 'Sin imagen disponible';
+    }
+    .img {
+      height: 100%;
+    }
+  }
+  &_title {
+    @include textType(20, kaufparts-dark-blue, bold);
+    padding: 0 0 0.5rem;
+  }
+  &_price {
+    @include textType(24, kaufparts-light-blue, bold);
+    padding: 0 0 0.25rem;
+  }
+  &_stock {
+    @include textType(12, kaufparts-dark-blue, light);
+    padding: 0 0 0.5rem;
+  }
+  &_moreDetails {
+    @include textType(14, kaufparts-light-blue, semiBold);
+    background: transparent;
+    outline: none;
+    // margin: 0 auto 0 auto;
+    padding: 0;
+    align-self: flex-end;
+    text-decoration: underline;
+    text-align: right;
+  }
+}

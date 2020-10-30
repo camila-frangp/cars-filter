@@ -1,0 +1,93 @@
+/**
+ * @format
+ */
+
+/* OpenSans300 */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('OpenSans Light'), local('OpenSans-Light'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSans300italic */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('OpenSans Light Italic'), local('OpenSans-LightItalic'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-LightItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSansregular */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('OpenSans'), local('OpenSans-Regular'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSansitalic */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('OpenSans Italic'), local('OpenSans-Italic'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSans500 */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('OpenSans Medium'), local('OpenSans-SemiBold'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSans500italic */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 500;
+  src: local('OpenSans Medium Italic'), local('OpenSans-SemiBoldItalic'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSans700 */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('OpenSans Bold'), local('OpenSans-Bold'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSans700italic */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('OpenSans Bold Italic'), local('OpenSans-BoldItalic'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSans900 */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('OpenSans Black'), local('OpenSans-ExtraBold'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* OpenSans900italic */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 900;
+  src: local('OpenSans Black Italic'), local('OpenSans-ExtraBoldItalic'),
+    url('./../../assets/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
