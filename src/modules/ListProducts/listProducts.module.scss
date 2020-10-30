@@ -1,0 +1,47 @@
+/** @format */
+
+@import './../../assets/scss/variables';
+@import './../../assets/scss/mixin';
+
+.cntListProduct {
+  background: map-get($colors, kaufparts-dark-blue);
+  position: relative;
+  padding: 12rem 4rem 2rem;
+  overflow-x: hidden;
+  .header {
+    @include box(kaufparts-light-grey, none, 1.5rem);
+    height: 500px;
+    width: 90%;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px 0 rgba(map-get($colors, kaufparts-light-blue), 0.75);
+    &_cntLogo {
+      .logoImg {
+        margin: 0 0 1rem;
+      }
+      .title {
+        @include textType(28, kaufparts-dark-blue, bold);
+      }
+    }
+  }
+  &_item {
+    margin: 2.5rem 0 0 2.5rem;
+  }
+}
+
+@media (max-width: $xs) {
+  .cntListProduct {
+    padding: 16rem 2.5rem 1rem;
+    &_item {
+      margin: 0 0 2.5rem;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
